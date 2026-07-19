@@ -230,6 +230,7 @@ class MigrationOrchestrator:
         headers = self._headers(config)
         print(f"Fetching Jira issues from: {url}")
         print(f"Headers: {headers}")
+        print(f"Request URL: {url}")
         req = request.Request(url, headers=headers)
         try:
             with request.urlopen(req, timeout=config.get("timeout", 30), context=self._build_ssl_context(config)) as response:
@@ -269,6 +270,7 @@ class MigrationOrchestrator:
         data = json.dumps(payload).encode("utf-8")
         headers = self._headers(config)
         print(f"Posting to Jira URL: {url}")
+        print(f"Request URL: {url}")
         print(f"Payload: {payload}")
         print(f"Headers: {headers}")
         req = request.Request(url, data=data, headers=headers, method="POST")
