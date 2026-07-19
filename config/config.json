@@ -1,0 +1,33 @@
+{
+  "source": {
+    "server": "https://usazrapnjiira02.sncorp.smith-nephew.com:8443",
+    "project": "CSTEST",
+    "bearer_auth": "",
+    "verify_ssl": false,
+    "timeout": 30,
+    "api_version": "2",
+    "jql": "project=\"CSTEST\""
+  },
+  "target": {
+    "server": "https://usazrapnjiira02.sncorp.smith-nephew.com:8443",
+    "project": "NST",
+    "bearer_auth": "",
+    "verify_ssl": false,
+    "timeout": 30,
+    "api_version": "2"
+  },
+  "reconcile_file": "reconcile.csv",
+  "log_file": "logs/migration.log",
+  "source_fields": [
+    "summary",
+    "description",
+    "issuetype",
+    "status",
+    "parent",
+    "comment",
+    "issuelinks",
+    "labels",
+    "assignee",
+    "reporter"
+  ]
+}

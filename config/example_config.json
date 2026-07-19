@@ -1,0 +1,34 @@
+{
+  "source": {
+    "server": "https://source.atlassian.net",
+    "project": "ABC",
+    "basic_auth": ["you@example.com", "token"],
+    "bearer_auth": "token",
+    "verify_ssl": false,
+    "timeout": 30,
+    "jql": "project=\"ABC\""
+  },
+  "target": {
+    "server": "https://target.atlassian.net",
+    "project": "XYZ",
+    "basic_auth": ["you@example.com", "token"],
+    "bearer_auth": "your-access-token",
+    "verify_ssl": false,
+    "timeout": 30
+  },
+  "mapping_file": "mapping.json",
+  "reconcile_file": "reconcile.csv",
+  "log_file": "logs/migration.log",
+  "source_fields": [
+    "summary",
+    "description",
+    "issuetype",
+    "status",
+    "parent",
+    "comment",
+    "issuelinks",
+    "labels",
+    "assignee",
+    "reporter"
+  ]
+}

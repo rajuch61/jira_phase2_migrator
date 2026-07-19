@@ -1,0 +1,309 @@
+{
+   "expand":"description,lead,createdAt,createdBy,lastUpdatedAt,lastUpdatedBy,url,projectKeys",
+   "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400",
+   "id":"11400",
+   "key":"CSTEST",
+   "description":"",
+   "lead":{
+      "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/user?username=venkata.ravikumar%40smith-nephew.com",
+      "key":"JIRAUSER10701",
+      "name":"venkata.ravikumar@smith-nephew.com",
+      "avatarUrls":{
+         "48x48":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/useravatar?ownerId=JIRAUSER10701&avatarId=10700",
+         "24x24":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/useravatar?size=small&ownerId=JIRAUSER10701&avatarId=10700",
+         "16x16":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/useravatar?size=xsmall&ownerId=JIRAUSER10701&avatarId=10700",
+         "32x32":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/useravatar?size=medium&ownerId=JIRAUSER10701&avatarId=10700"
+      },
+      "displayName":"Venkata Ravikumar",
+      "active":true
+   },
+   "components":[
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11100",
+         "id":"11100",
+         "name":"Cumulus",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11102",
+         "id":"11102",
+         "name":"IntraOp",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11103",
+         "id":"11103",
+         "name":"PFA",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11108",
+         "id":"11108",
+         "name":"QT Launcher",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11104",
+         "id":"11104",
+         "name":"RKA",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11107",
+         "id":"11107",
+         "name":"System",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11106",
+         "id":"11106",
+         "name":"Tensioner",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11101",
+         "id":"11101",
+         "name":"TKA",
+         "isAssigneeTypeValid":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/component/11105",
+         "id":"11105",
+         "name":"UKR",
+         "isAssigneeTypeValid":false
+      }
+   ],
+   "issueTypes":[
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10102",
+         "id":"10102",
+         "description":"",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10313&avatarType=issuetype",
+         "name":"Anomaly",
+         "subtask":false,
+         "avatarId":10313
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10200",
+         "id":"10200",
+         "description":"A problem which impairs or prevents the functions of the product.",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+         "name":"Bug",
+         "subtask":false,
+         "avatarId":10303
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10700",
+         "id":"10700",
+         "description":"",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+         "name":"Change",
+         "subtask":false,
+         "avatarId":10300
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10000",
+         "id":"10000",
+         "description":"Created by Jira Software - do not edit or delete. Issue type for a big user story that needs to be broken down.",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/images/icons/issuetypes/epic.svg",
+         "name":"Epic",
+         "subtask":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10001",
+         "id":"10001",
+         "description":"Created by Jira Software - do not edit or delete. Issue type for a user story.",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/images/icons/issuetypes/story.svg",
+         "name":"Story",
+         "subtask":false
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10400",
+         "id":"10400",
+         "description":"Feature from ADO Boards",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10322&avatarType=issuetype",
+         "name":"Feature",
+         "subtask":false,
+         "avatarId":10322
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10701",
+         "id":"10701",
+         "description":"",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+         "name":"Improvement",
+         "subtask":false,
+         "avatarId":10300
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10702",
+         "id":"10702",
+         "description":"",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+         "name":"Technical Debt",
+         "subtask":false,
+         "avatarId":10300
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10002",
+         "id":"10002",
+         "description":"A task that needs to be done.",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+         "name":"Task",
+         "subtask":false,
+         "avatarId":10318
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/issuetype/10003",
+         "id":"10003",
+         "description":"The sub-task of the issue",
+         "iconUrl":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+         "name":"Sub-task",
+         "subtask":true,
+         "avatarId":10316
+      }
+   ],
+   "assigneeType":"PROJECT_LEAD",
+   "versions":[
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12600",
+         "id":"12600",
+         "description":"CORI 1.5",
+         "name":"CORI 1.5",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12601",
+         "id":"12601",
+         "description":"CORI 1.5.X",
+         "name":"CORI 1.5.X",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12602",
+         "id":"12602",
+         "description":"CORI 2.0",
+         "name":"CORI 2.0",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12603",
+         "id":"12603",
+         "description":"CORI 2.1",
+         "name":"CORI 2.1",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12604",
+         "id":"12604",
+         "description":"Cumulus 2.0",
+         "name":"Cumulus 2.0",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12605",
+         "id":"12605",
+         "description":"Knee 4.0",
+         "name":"Knee 4.0",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12606",
+         "id":"12606",
+         "description":"ORCA 1.0",
+         "name":"ORCA 1.0",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12607",
+         "id":"12607",
+         "description":"OneKnee PLACEHOLDER",
+         "name":"OneKnee PLACEHOLDER",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12608",
+         "id":"12608",
+         "description":"Pre-Op Plan Hip",
+         "name":"Pre-Op Plan Hip",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12609",
+         "id":"12609",
+         "description":"RI.Insights 2.1",
+         "name":"RI.Insights 2.1",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12610",
+         "id":"12610",
+         "description":"RI.Insights 2.2",
+         "name":"RI.Insights 2.2",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12611",
+         "id":"12611",
+         "description":"Revision PLACEHOLDER",
+         "name":"Revision PLACEHOLDER",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      },
+      {
+         "self":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/version/12612",
+         "id":"12612",
+         "description":"RiOS V1",
+         "name":"RiOS V1",
+         "archived":false,
+         "released":false,
+         "projectId":11400
+      }
+   ],
+   "name":"Cori SaaS Test",
+   "roles":{
+      "Notified":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10206",
+      "EE Admin":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10500",
+      "Service Desk Team":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10204",
+      "CCB":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10200",
+      "Change Implementer":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10202",
+      "Change Manager":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10201",
+      "Tester":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10300",
+      "Developers":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10100",
+      "Service Desk Customers":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10203",
+      "Administrators":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10002",
+      "Viewers":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10400",
+      "Change Assessor":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/rest/api/2/project/11400/role/10205"
+   },
+   "avatarUrls":{
+      "48x48":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/projectavatar?avatarId=10324",
+      "24x24":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/projectavatar?size=small&avatarId=10324",
+      "16x16":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/projectavatar?size=xsmall&avatarId=10324",
+      "32x32":"https://usazrapnjiira02.sncorp.smith-nephew.com:8443/secure/projectavatar?size=medium&avatarId=10324"
+   },
+   "projectTypeKey":"software",
+   "archived":false
+}
