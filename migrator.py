@@ -217,11 +217,11 @@ class MigrationOrchestrator:
         base_url = self._build_url("/search", config.get("server", ""), self._get_api_version(config))
         fields = config.get("fields") or self.config.get("source_fields") or ["summary", "project", "key"]
         field_names = ",".join(str(field) for field in fields)
-        query_params = [f"startAt=0", f"maxResults=100", f"fields={quote(field_names)}"]
+        query_params = [f"startAt=0", f"maxResults=100", f"fields={field_names}"]
 
         project_key = config.get("project_key") or config.get("project") or ""
         if project_key:
-            query_params.append(f"jql=project%3D{quote(project_key)}")
+            query_params.append(f"jql=project={project_key}")
 
         return f"{base_url}?{'&'.join(query_params)}"
 
